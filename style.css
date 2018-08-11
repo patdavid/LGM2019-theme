@@ -1017,15 +1017,30 @@ body {
 .home .main-navigation {
     position: fixed;
     z-index: 10;
+	font-family: "League Spartan", Arial, sans-serif;
+	text-align: center;
+	text-align: right;
+}
+.main-navigation li {
+	margin-right: 0.5rem;
+	display: inline-block;
+	float: none;
+}
+.main-navigation li:last-of-type {
+	margin-right: 0;
+}
+.menu-main-menu-container {
+	background-color: white;
+	display: inline-block;
+	padding: 0.4rem 0.5rem 0.2rem 0.5rem;
 }
 
 h1, h2, h3, h4, h5 {
     font-family: League Spartan, Arial, sans-serif;
 }
 
-a, a:visited {
-    color: #3498db;
-}
+a, a:visited { color: #3498db; }
+a:hover { color: #ff5a50; }
 
 #p_title {
     width: 100%;
@@ -1043,7 +1058,7 @@ a, a:visited {
 
 #p_title #lgm {
     font-family: "League Spartan";
-    font-size: 15vw;
+    font-size: 11vw;
     color: white;
     line-height: 1em;
     position: relative;
@@ -1079,7 +1094,7 @@ div#loc .ora {
 
 #p_about {
     height: 100vh;
-    background-image: url('./images/Try_Pat_David.png');
+    background-image: linear-gradient( rgba(0,0,0,0.3), rgba(0,0,0,0.4)), url('./images/Try_Pat_David.png');
     background-attachment: fixed;
     box-shadow: inset 0px 5px 15px #00000075;
     color: white;
