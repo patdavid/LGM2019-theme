@@ -1118,13 +1118,16 @@ div#loc .ora {
 	#p_about, #p_title {
 		background-attachment: scroll;
 	}
-	/*
+		/*
 	#p_about .section-content {
 		top: initial;
 		transform: none;
 		padding-top: 2rem;
 	}
-	*/
+		*/
+}
+#p_about .section-content {
+		padding-top: 2rem;
 }
 .section-content {
     max-width: 45rem;
