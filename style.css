@@ -1029,7 +1029,7 @@ body {
     display: none;
 }
 
-.home .main-navigation {
+.main-navigation {
     position: fixed;
     z-index: 10;
 	font-family: "League Spartan", Arial, sans-serif;
