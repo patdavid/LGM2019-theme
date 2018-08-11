@@ -988,6 +988,21 @@ object {
 /*==============================================================
  # Customization for LGM2019 website
  * =============================================================*/
+
+/* Fonts */
+/* ----- */
+@font-face {
+    font-family: 'League Spartan';
+    src: url('./fonts/leaguespartan-bold.eot');
+    src: url('./fonts/leaguespartan-bold.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/leaguespartan-bold.woff2') format('woff2'),
+         url('./fonts/leaguespartan-bold.woff') format('woff'),
+         url('./fonts/leaguespartan-bold.ttf') format('truetype'),
+         url('./fonts/leaguespartan-bold.svg#league_spartanbold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
 /*
 body {
     max-width: 40rem;
@@ -1036,7 +1051,7 @@ body {
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: League Spartan, Arial, sans-serif;
+    font-family: "League Spartan", Arial, sans-serif;
 }
 
 a, a:visited { color: #3498db; }
@@ -1045,8 +1060,6 @@ a:hover { color: #ff5a50; }
 #p_title {
     width: 100%;
     height: 100vh;
-    /* background-image: radial-gradient( rgba(0,0,0,0.2), rgba(0,0,0,0) ), url('https://c2.staticflickr.com/6/5465/9823791955_34511a40c9_o.png');
-     */
     background-image: radial-gradient( rgba(0,0,0,0.2), rgba(0,0,0,0) ), url('./images/True_Love_Pat_David.png');
     background-size: cover;
     background-position: center;
@@ -1096,8 +1109,22 @@ div#loc .ora {
     height: 100vh;
     background-image: linear-gradient( rgba(0,0,0,0.3), rgba(0,0,0,0.4)), url('./images/Try_Pat_David.png');
     background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
     box-shadow: inset 0px 5px 15px #00000075;
     color: white;
+}
+@supports (-webkit-overflow-scrolling: touch) {
+	#p_about, #p_title {
+		background-attachment: scroll;
+	}
+	/*
+	#p_about .section-content {
+		top: initial;
+		transform: none;
+		padding-top: 2rem;
+	}
+	*/
 }
 .section-content {
     max-width: 45rem;
