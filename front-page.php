@@ -43,8 +43,11 @@ Since 2006 the Libre Graphics Meeting aims to attract developers, artists and pr
 </div>
 </section>
 
+<section class='p_posts'>
 	<div id="primary" class="content-area">
-		<main id="main" class="site-main">
+		<main id="main" class="site-main section-content">
+
+		<h1>Latest Posts</h1>
 
 		<?php
 		if ( have_posts() ) :
@@ -66,7 +69,7 @@ Since 2006 the Libre Graphics Meeting aims to attract developers, artists and pr
 				 * If you want to override this in a child theme, then include a file
 				 * called content-___.php (where ___ is the Post Type name) and that will be used instead.
 				 */
-				get_template_part( 'template-parts/content', get_post_type() );
+				get_template_part( 'template-parts/content-frontpost', get_post_type() );
 
 			endwhile;
 
@@ -81,6 +84,7 @@ Since 2006 the Libre Graphics Meeting aims to attract developers, artists and pr
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
+</section>
 
 <?php
 get_sidebar();

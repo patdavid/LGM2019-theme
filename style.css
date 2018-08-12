@@ -1106,13 +1106,14 @@ div#loc .ora {
 }
 
 #p_about {
-    height: 100vh;
+    min-height: 100vh;
     background-image: linear-gradient( rgba(0,0,0,0.3), rgba(0,0,0,0.4)), url('./images/Try_Pat_David.png');
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
     box-shadow: inset 0px 5px 15px #00000075;
     color: white;
+	padding-top: 2rem;
 }
 @supports (-webkit-overflow-scrolling: touch) {
 	#p_about, #p_title {
@@ -1122,19 +1123,21 @@ div#loc .ora {
 	#p_about .section-content {
 		top: initial;
 		transform: none;
-		padding-top: 2rem;
+		padding-top: 3rem;
 	}
 		*/
 }
 #p_about .section-content {
 		padding-top: 2rem;
 }
+#p_title .section-content {
+    top: 50%;
+    transform: translateY(-50%);
+}
 .section-content {
     max-width: 45rem;
     margin: 0 auto;
     position: relative;
-    top: 50%;
-    transform: translateY(-50%);
 }
 .section-content h1 {
     font-size: 6vw;
@@ -1147,6 +1150,30 @@ div#loc .ora {
     padding: 2rem;
 }
 
+.p_posts {
+	padding: 4rem 0;
+	box-shadow: 0 -5px 20px rgba(0,0,0,0.5);
+	background-color: gainsboro;
+}
+.p_posts .section-content h1 {
+	margin: 0;
+}
+.home .post .entry-header {
+	background-color: white;
+	position: absolute;
+	background-color: rgba(255,255,255,0.7);
+	padding: 1rem 2rem;
+}
+.home .post h2 {
+	font-size: 2vw;
+	font-size: 2rem;
+	margin: 0;
+}
+.home .post .entry-header .posted-on {
+    font-family: "League Spartan", Arial, sans-serif;
+}
+
+/* Stop font growing at 1600px wide */
 @media (min-width: 1600px){
     #p_title div#lgm {
         font-size: 15rem;
