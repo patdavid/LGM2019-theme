@@ -86,6 +86,14 @@ Since 2006 the Libre Graphics Meeting aims to attract developers, artists and pr
 	</div><!-- #primary -->
 </section>
 
+<!--
+    <section class='p_sponsors'>
+    <div class='section-content'>
+        <h1>Sponsors</h1>
+    </div>
+    </section>
+-->
+
 <?php
 //get_sidebar();
 get_footer();
