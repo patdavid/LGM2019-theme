@@ -1044,7 +1044,7 @@ body {
 .main-navigation li:last-of-type {
 	margin-right: 0;
 }
-.menu-main-menu-container {
+.menu-main-menu-container, #primary-menu {
 	background-color: white;
 	display: inline-block;
 	padding: 0.4rem 0.5rem 0.2rem 0.5rem;
@@ -1060,7 +1060,7 @@ a:hover { color: #ff5a50; }
 #p_title {
     width: 100%;
     height: 100vh;
-    background-image: radial-gradient( rgba(0,0,0,0.2), rgba(0,0,0,0) ), url('./images/True_Love_Pat_David.png');
+    background-image: radial-gradient( rgba(0,0,0,0.2), rgba(0,0,0,0) ), url('./images/True_Love_Pat_David.jpg');
     background-size: cover;
     background-position: center;
     vertical-align: middle;
@@ -1107,7 +1107,7 @@ div#loc .ora {
 
 #p_about {
     min-height: 100vh;
-    background-image: linear-gradient( rgba(0,0,0,0.3), rgba(0,0,0,0.4)), url('./images/Try_Pat_David.png');
+    background-image: linear-gradient( rgba(0,0,0,0.3), rgba(0,0,0,0.4)), url('./images/Try_Pat_David.jpg');
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -1154,6 +1154,7 @@ div#loc .ora {
 	padding: 4rem 0;
 	box-shadow: 0 -5px 20px rgba(0,0,0,0.5);
 	background-color: gainsboro;
+    background-image: url(./images/logo-lgm-web.svg);
 }
 .p_posts .section-content h1 {
 	margin: 0;
@@ -1171,6 +1172,11 @@ div#loc .ora {
 }
 .home .post .entry-header .posted-on {
     font-family: "League Spartan", Arial, sans-serif;
+}
+
+footer.site-footer {
+    text-align: center;
+    background-color: gainsboro;
 }
 
 /* Stop font growing at 1600px wide */

@@ -15,6 +15,7 @@
 
 	<footer id="colophon" class="site-footer">
 		<div class="site-info">
+        <!--
 			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'lgm-2019' ) ); ?>">
 				<?php
 				/* translators: %s: CMS name, i.e. WordPress. */
@@ -27,12 +28,12 @@
 				printf( esc_html__( 'Theme: %1$s by %2$s.', 'lgm-2019' ), 'lgm-2019', '<a href="https://patdavid.net">Pat David</a>' );
 				?>
 		</div><!-- .site-info -->
+        <div>
+            <p><a href="https://pixls.us">pixls.us</a> <span class="heart">♡</span>'s LGM</p>
+        </div>
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 
-<div>
-    <p><a href="https://pixls.us">pixls.us</a> <span class="heart">♡</span>'s LGM</p>
-</div>
 <?php wp_footer(); ?>
 
 </body>

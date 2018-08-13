@@ -87,5 +87,5 @@ Since 2006 the Libre Graphics Meeting aims to attract developers, artists and pr
 </section>
 
 <?php
-get_sidebar();
+//get_sidebar();
 get_footer();
