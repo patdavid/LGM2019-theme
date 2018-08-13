@@ -1030,10 +1030,11 @@ body {
 }
 
 .main-navigation {
-    position: fixed;
     z-index: 10;
 	font-family: "League Spartan", Arial, sans-serif;
-	text-align: center;
+}
+.home .main-navigation {
+    position: fixed;
 	text-align: right;
 }
 .main-navigation li {
@@ -1183,6 +1184,42 @@ footer.site-footer {
     color: red;
     font-size: 1.5rem;
     vertical-align: middle;
+}
+
+/* Single-post styling
+ * This is for posts (and pages later)
+ */
+.page .byline, .single .byline { display: none; }
+.page .entry-title, .single .entry-title { margin: 0; }
+.page .site-header, .single .site-header { 
+	text-align: center; 
+	margin-bottom: 3rem;
+	margin-top: 2rem;
+}
+.page .site-branding, .single .site-branding {
+	font-family: "League Spartan", Arial, sans-serif;
+}
+.page .site-branding .site-title, .single .site-branding .site-title {
+	font-size: 4vw;
+	margin: 0;
+}
+.page .site-branding .site-title a, .single .site-branding .site-title a {
+	text-decoration: none;
+}
+.page .site-branding .site-description, .single .site-branding .site-description {
+	font-size: 2vw;
+	margin: 0;
+}
+.page #main, .single #main  {
+	max-width: 48rem;
+	margin: 0 auto;
+	font-size: 1.2rem;
+}
+.page .entry-content, .single .entry-content {
+	margin: 0 1rem;
+}
+.page footer.entry-footer, .single footer.entry-footer {
+	display: none;
 }
 
 /* Stop font growing at 1600px wide */
