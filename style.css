@@ -1178,6 +1178,7 @@ footer.site-footer {
     text-align: center;
     background-color: gainsboro;
 }
+.heart { color: red; }
 
 /* Stop font growing at 1600px wide */
 @media (min-width: 1600px){
