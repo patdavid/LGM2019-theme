@@ -1114,6 +1114,7 @@ div#loc .ora {
     box-shadow: inset 0px 5px 15px #00000075;
     color: white;
 	padding-top: 2rem;
+	padding-bottom: 2rem;
 }
 @supports (-webkit-overflow-scrolling: touch) {
 	#p_about, #p_title {
@@ -1178,7 +1179,11 @@ footer.site-footer {
     text-align: center;
     background-color: gainsboro;
 }
-.heart { color: red; }
+.heart { 
+    color: red;
+    font-size: 1.5rem;
+    vertical-align: middle;
+}
 
 /* Stop font growing at 1600px wide */
 @media (min-width: 1600px){
