@@ -29,7 +29,7 @@
 				?>
 		</div><!-- .site-info -->
         <div>
-            <p><a href="https://pixls.us">pixls.us</a> <span class="heart">♡</span>'s LGM</p>
+            <p><a href="https://pixls.us">pixls.us</a> <span class="heart">♡</span>'s <a href="https://libregraphicsmeeting.org/lgm/">LGM</a></p>
         </div>
 	</footer><!-- #colophon -->
 </div><!-- #page -->
