@@ -694,7 +694,7 @@ a:hover, a:active {
 .main-navigation.toggled ul {
 	display: block;
 }
-
+/*
 @media screen and (min-width: 37.5em) {
 	.menu-toggle {
 		display: none;
@@ -703,6 +703,7 @@ a:hover, a:active {
 		display: block;
 	}
 }
+*/
 
 .site-main .comment-navigation, .site-main
 .posts-navigation, .site-main
@@ -1003,22 +1004,9 @@ object {
     font-style: normal;
 }
 
-/*
-body {
-    max-width: 40rem;
-    margin: 0 auto;
+.menu-toggle {
+	display: none;
 }
-*/
-
-/* For the big splash "Libre Graphics Meeting" on the front-page,
- * try setting the font-size as a function of viewport width e.g.: "15vw" */
-
-/*
-body {
-    margin: 0 0 0 1rem;
-}
-*/
-
 body {
     font-family: "Open Sans", sans-serif;
 }
@@ -1193,6 +1181,10 @@ footer.site-footer {
 /* Single-post styling
  * This is for posts (and pages later)
  */
+.page #primary-menu, .single #primary-menu {
+	border-bottom: 3px solid #ccc;
+	border-top: 3px solid #ccc;
+}
 .page .byline, .single .byline { display: none; }
 .page .entry-title, .single .entry-title { margin: 0; }
 .page .site-header, .single .site-header { 
