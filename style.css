@@ -1072,7 +1072,7 @@ a:hover { color: #ff5a50; }
 
 #p_title #lgm {
     font-family: "League Spartan";
-    font-size: 11vw;
+    font-size: 9vw;
     color: white;
     line-height: 1em;
     position: relative;
@@ -1096,7 +1096,7 @@ a:hover { color: #ff5a50; }
     */
 }
 #p_title div#loc {
-    font-size: 7vw;
+    font-size: 6vw;
     text-shadow: 0.25vw 0.25vw rgba(50,50,50,0.9);
 }
 div#loc .blu {
@@ -1104,6 +1104,10 @@ div#loc .blu {
 }
 div#loc .ora {
     color: #ff5a50;
+}
+#p_title div#dates {
+	font-size: 3vw;
+	line-height: 2rem;
 }
 
 #p_about {
@@ -1252,10 +1256,10 @@ footer.site-footer {
 /* Stop font growing at 1600px wide */
 @media (min-width: 1600px){
     #p_title div#lgm {
-        font-size: 15rem;
+        font-size: 10rem;
     }
     #p_title div#loc {
-        font-size: 7rem;
+        font-size: 6rem;
     }
     .section-content h1 {
         font-size: 6rem;
@@ -1265,6 +1269,6 @@ footer.site-footer {
 @media (min-width: 1600px) and (min-device-pixel-ratio: 192dpi),
 (min-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) {
     #p_title div#lgm {
-        font-size: 11rem;
+        font-size: 10rem;
     }
 }

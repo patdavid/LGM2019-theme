@@ -20,7 +20,9 @@ get_header();
 Libre<br>
 Graphics<br>
 Meeting
-<div id='loc'><span class='blu'>2019</span> / <span class='ora'>Saarbrücken</span></div>
+<div id='loc'><span class='blu'>2019</span> / <span class='ora'>Saarbrücken</span>
+	<div id='dates'>May 29 &ndash; June 2</div>
+</div>
 </div>
 </section>
 
