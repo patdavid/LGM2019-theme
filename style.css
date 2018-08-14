@@ -1261,3 +1261,10 @@ footer.site-footer {
         font-size: 6rem;
     }
 }
+
+@media (min-width: 1600px) and (min-device-pixel-ratio: 192dpi),
+(min-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) {
+    #p_title div#lgm {
+        font-size: 11rem;
+    }
+}
