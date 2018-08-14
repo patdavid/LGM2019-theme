@@ -1107,7 +1107,7 @@ div#loc .ora {
 }
 
 #p_about {
-    min-height: 100vh;
+    /* min-height: 100vh; */
     background-image: linear-gradient( rgba(0,0,0,0.3), rgba(0,0,0,0.4)), url('./images/Try_Pat_David.jpg');
     background-attachment: fixed;
     background-size: cover;
@@ -1210,16 +1210,43 @@ footer.site-footer {
 	font-size: 2vw;
 	margin: 0;
 }
+
 .page #main, .single #main  {
 	max-width: 48rem;
 	margin: 0 auto;
 	font-size: 1.2rem;
 }
-.page .entry-content, .single .entry-content {
+.page .entry-content, .single .entry-content,
+.page .entry-header, .single .entry-header
+{
 	margin: 0 1rem;
 }
+.page .entry-header, .single .entry-header{
+	text-align: center;
+	margin-bottom: 1rem;
+}
+.page .entry-title, .single .entry-title {
+	line-height: 2rem;
+}
+.page .entry-meta, .single .entry-meta {
+	color: gray;
+}
+.page .entry-meta a, .single .entry-meta a {
+	text-decoration: none;
+}
+
 .page footer.entry-footer, .single footer.entry-footer {
 	display: none;
+}
+
+@media (max-width: 1024px){ /* Tablet or lower */
+	.page .site-branding .site-title, .single .site-branding .site-title {
+		font-size: 2.5rem;
+		line-height: 3rem;
+	}
+	.page .site-branding .site-description, .single .site-branding .site-description {
+		font-size: 1.3rem;
+	}
 }
 
 /* Stop font growing at 1600px wide */
