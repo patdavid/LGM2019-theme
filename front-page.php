@@ -17,10 +17,9 @@ get_header();
 
 <section id='p_title'>
 <div id='lgm'>
-Libre<br>
-Graphics<br>
-Meeting
-<div id='loc'><span class='blu'>2019</span> / <span class='ora'>Saarbrücken</span>
+<img id='LGM_Logo' src='<?php echo get_template_directory_uri(); ?>/images/LGM_Logo.png' >
+Libre Graphics <span>Meeting 2019</span>
+<div id='loc'><span class='ora'>Saarbrücken</span>
 	<div id='dates'>May 29 &ndash; June 2</div>
 </div>
 </div>

@@ -1062,9 +1062,15 @@ a:hover { color: #ff5a50; }
 }
 
 
+#p_title #LGM_Logo {
+	display: block;
+	margin-bottom: 3rem;
+	filter: drop-shadow(0.25vw 0.25vw 0.25vw black);
+}
 #p_title #lgm {
     font-family: "League Spartan";
-    font-size: 9vw;
+	font-family: "Ostrich sans Black";
+    font-size: 7vw;
     color: white;
     line-height: 1em;
     position: relative;
@@ -1072,6 +1078,7 @@ a:hover { color: #ff5a50; }
     transform: translateY(-50%);
     max-height: 90vh;
     text-shadow: 0.5vw 0.5vw 0.5vw rgba(25,25,25,0.9);
+    text-shadow: 0.25vw 0.25vw 0.25vw rgba(50,50,50,0.9);
     /*  Because fuck yeah, I can.
     text-shadow: 0.1vw 0.1vw #e40303,
     0.2vw 0.2vw #e40303,
@@ -1100,8 +1107,11 @@ a:hover { color: #ff5a50; }
     1.1vw 1.1vw #750787,
     1.2vw 1.2vw #750787 !important;
 }
+#p_title #lgm span {
+	color: #d99b46;
+}
 #p_title div#loc {
-    font-size: 6vw;
+    font-size: 5vw;
     text-shadow: 0.25vw 0.25vw rgba(50,50,50,0.9);
 }
 div#loc .blu {
@@ -1284,7 +1294,7 @@ footer.site-footer {
 /* Stop font growing at 1600px wide */
 @media (min-width: 1600px){
     #p_title div#lgm {
-        font-size: 10rem;
+        /* font-size: 10rem; */
     }
     #p_title div#loc {
         font-size: 6rem;
