@@ -1112,7 +1112,7 @@ a:hover { color: #ff5a50; }
 }
 #p_title div#loc {
     font-size: 5vw;
-    text-shadow: 0.25vw 0.25vw rgba(50,50,50,0.9);
+    text-shadow: 0.15vw 0.15vw 0.15vw rgba(50,50,50,0.9);
 }
 div#loc .blu {
     color: #3498db;
